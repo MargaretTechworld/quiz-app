@@ -1,0 +1,51 @@
+*{
+  background-color:#F5F7FB;
+  padding: 3px;
+}
+.quiz-start{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  gap: 2px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.quiz-start p{
+  margin: 0;
+}
+.quiz-start h1{
+  margin: 0;
+}
+
+.question-div{
+  margin: 2%;
+  border-bottom: 1px solid black;
+}
+
+.question-div button{
+  background-color: white;
+  color:#293264;
+  border: 0.79px solid #4D5B9E ;
+  margin-left: 10px;
+  border-radius: 7px;
+  padding: 7px 20px;
+  margin-bottom: 20px;
+}
+.question-div p{
+  font-size: 1.5rem;
+  color: #293264;
+}
+.check-button{
+  background: #4D5B9E;
+  padding: 2%;
+  color: white;
+  border:none;
+  border-radius: 10px;
+}
+.button-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
